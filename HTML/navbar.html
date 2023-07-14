@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/navbar.css">
+</head>
+
+<body class="main_bg">
+
+    <nav class="vertical-menu">
+        <a href="navbar.html" class="active">Home</a>
+        <a href="/HTML/listresto.html">Restaurant</a>
+        <a href="/HTML/about.html">About Us</a>
+        <a href="/HTML/contact1.html">Contact</a>
+    </nav>
+
+
+    <div class="form">
+        <div class="form-text">
+            <h1><span><img src="/images/decotitre.png" alt=""></span>Reservation <span><img src="/images/decotitre.png" alt=""></span></h1>
+        </div>
+        <div class="main-form">
+            <form >
+                <div>
+                    <!-- <---this is the select option--->
+                    <span><img> the restaurant</span>
+                    <select name="restaurant" id="restaurant" required>
+                        <option value="">Restaurant...</option>
+                        <option value="1">Burger bar</option>
+                        <option value="2">Ruben</option>
+                        <option value="3">Grill Bar</option>
+                        <option value="4">Tsidkiyahou</option>
+                        <option value="5">Cafe Rimon <strong> Meat</strong></option>
+                        <option value="6">Cafe Rimon <strong> DAIRY</strong></option>
+                        <option value="7">Pizza Hut</option>
+                        <option value="8">DENIA</option>
+                        <option value="9">Al DENTE</option>
+                        <option value="10">LUCIANA <strong> Meat</strong></option>
+                        <option value="11">LUCIANA <strong> DAIRY</strong></option>
+                        <option value="12">sushi rehavia</option>
+                        <option value="13">Sea Dolphin</option>
+                        <option value="14">FISHNCHIPS</option>
+                    </select>
+                </div> 
+                    
+                <div> 
+                    <span>Your email address ?</span>
+                    <input type="email" name="name" id="mail" placeholder="Write your email here..." required> 
+                </div>
+                <div>
+                    <span>Your full name ?</span>
+                    <input type="text" name="name" id="name" placeholder="Write your name here..." required>
+                </div>
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>How many people ?</span>
+                    <select name="people" id="people" required>
+                        <option value="">Number</option>
+                        <option value="1">1 People</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                        <option value="5">5 People</option>
+                        <option value="6">6 People</option>
+                        <option value="7">7 People</option>
+                        <option value="8">8 People</option>
+                        <option value="9">9 People</option>
+                        <option value="10">10 People</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>What time</span>
+                    <select name="time" id="time" required>
+                        <option value="">Time...</option>
+                        <option value="1">19:00</option>
+                        <option value="2">19:15</option>
+                        <option value="3">19:30</option>
+                        <option value="4">19:45</option>
+                        <option value="5">20:00</option>
+                        <option value="6">20:15</option>
+                        <option value="7">20:30</option>
+                        <option value="8">20:45</option>
+                        <option value="9">21:00</option>
+                        <option value="10">21:15</option>
+                        <option value="11">21:30</option>
+                        <option value="12">21:45</option>
+                        <option value="13">22:00</option>
+                    </select>
+                </div> 
+                <div>
+                    <span>What is the date ?</span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
